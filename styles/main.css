@@ -4,23 +4,23 @@ body {font-family: Arial, Helvetica, sans-serif;
 }
 a:hover, a:focus {
     font-style: italic;
-    color:orangered;
+    color:rgb(139, 139, 139);
 }
 header h1 {
     font-size: 175%;
-    color:maroon;
+    color:gray;
     text-indent: 30px;
 }
 header h2{
     font-size: 130%;
-    color: #800000;
+    color: #8d8d8d;
     text-indent: 30px;
 }
 header img{
     float:left;
     }
     .shadow{ /*this is the class*/
-    text-shadow: 2px 2px 2px rgb(128, 0, 0);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 main {
     clear:left
