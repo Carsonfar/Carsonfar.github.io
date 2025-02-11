@@ -39,6 +39,7 @@ header img{
     }
     .shadow{ /*this is the class*/
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    text-indent: 2em;
 }
 main {
     clear:left
