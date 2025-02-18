@@ -70,13 +70,11 @@ aside {
     padding-left: 1em;
 }
 footer{
-    clear:both;
     border-top: 2px solid rgb(140, 183, 211);
 }
 footer p.copyright {
     text-align: center;
     font-size: 80%;
-    padding-bottom: 2em;
 }
 p.fixed{
     width: auto;
