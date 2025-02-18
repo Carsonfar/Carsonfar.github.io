@@ -33,6 +33,7 @@ header h2{
     text-indent: 30px;
 }
 header h3{
+    clear:both;
     border-top: 2px solid rgb(140, 183, 211);
 }
 header img{
