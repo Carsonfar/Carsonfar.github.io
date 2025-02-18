@@ -31,11 +31,11 @@ header h2{
     font-size: 130%;
     color: #8d8d8d00;
     text-indent: 30px;
+    border-bottom: 2px solid rgb(140, 183, 211);
 }
 header img{
     float:left;
     margin-left: 2em;
-    border-bottom: 2px solid rgb(140, 183, 211);
 }
 .shadow{ /*this is the class*/
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
