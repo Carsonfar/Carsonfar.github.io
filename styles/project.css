@@ -26,12 +26,12 @@ header h1 {
     font-size: 175%;
     color:rgba(128, 128, 128, 0);
     text-indent: 30px;
-    border-bottom: 2px solid rgb(140, 183, 211);
 }
 header h2{
     font-size: 130%;
     color: #8d8d8d00;
     text-indent: 30px;
+    border-bottom: 2px solid rgb(140, 183, 211);
 }
 header img{
     float:left;
