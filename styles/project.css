@@ -55,8 +55,20 @@ article img{
     margin-right:1em;
     margin-bottom: 1em;
 }
+article p::first-letter{
+    font-size:3em;
+    font-weight:bold;
+    font-style: italic;
+    color: rgb(140, 183, 211);
+}
+aside {
+    width:20%;
+    float:right;
+    background-color: rgb(140, 183, 211);
+    
 
-    main {
+}
+main {
     clear: left
 }
 main h3 {
