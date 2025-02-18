@@ -74,6 +74,7 @@ footer{
 footer p.copyright {
     text-align: center;
     font-size: 80%;
+    padding-bottom: 2em;
 }
 p.fixed{
     width: auto;
