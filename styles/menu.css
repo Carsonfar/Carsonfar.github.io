@@ -23,3 +23,50 @@ aside ol {
 aside ul {
     list-style-type: square;
 }
+
+
+#nav_menu ul { list-style-type: none: }
+#nav menu ul li { float: left; }
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+
+8
+
+9
+
+text-decoration: none;
+
+10
+
+background-color: blue;
+
+11
+
+color: white;
+
+12
+
+font-weight: bold;
+
+13
+
+border-right: 2px solid
+
+white; G
+
+14
+
+nav menu ul li alastitem { border-right: none; }
+
+15
+
+#nav menu ul li a.current { color:
+
+yellow; }
+
+article f
+
+clear: both;
