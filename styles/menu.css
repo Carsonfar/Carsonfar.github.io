@@ -3,7 +3,9 @@
     background-color: green;
 
 }
-#nav menu ul li { float: left; }
+#nav menu ul li { 
+    float: left; 
+}
 #nav menu ul li a {
     text-align: center;
     display: block;
@@ -12,17 +14,22 @@
     background-color: blue;
     color: white;
     font-weight: bold;
-    border-right: 2px solid white;}
+    border-right: 2px solid white;
+}
 
-#nav menu ul li a.lastitem { border-right: none;}
-#nav menu ul li a.current { color: yellow; }
+#nav menu ul li a.lastitem { 
+    border-right: none;
+}
+#nav menu ul li a.current { 
+    color: yellow; 
+}
 
 article{
-clear : both;
+    clear : both;
 }
 aside ol{
-list-style-type: upper-roman;
+    list-style-type: upper-roman;
 }
 aside ul {
-list-style-type: square;
+    list-style-type: square;
 }
