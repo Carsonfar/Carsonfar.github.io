@@ -26,6 +26,10 @@ nav ul li a.current {
     color: yellow;
 }
 
+nav ul li a:hover {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
 article {
     clear: both;
 }
