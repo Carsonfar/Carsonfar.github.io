@@ -17,8 +17,10 @@ body {
 nav {
     width: 100%;
     border-bottom: 3px solid blue;
-    padding-bottom: 10px; /* used padding to move it down since margin-bottom was doing anything */
+    padding-bottom: 15px;
+    padding-left: 20px; /* Shift the menu items to the right */
     margin-bottom: 0;
+    margin-top: 10px;
 }
 
 nav ul {
