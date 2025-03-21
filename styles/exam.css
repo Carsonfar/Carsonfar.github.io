@@ -10,35 +10,40 @@ body {
     box-sizing: border-box;
 }
 
+nav {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border-bottom: 1px solid black;
+    display: flex; /* Use flexbox for better control over menu items */
 }
 
 nav ul li {
-    float: left;
+    flex: 1; /* Distribute space evenly among menu items */
+    text-align: center;
 }
 
 nav ul li a {
     display: block;
-    width: 150px;
     padding: 10px;
-    text-align: center;
     text-decoration: none;
-    background-color: blue;
-    color: white;
-    border-right: 1px solid white;
+    background-color: blue; /* Blue background for menu items */
+    color: white; /* White text */
+    border-right: 1px solid white; /* White border on the right */
+    font-weight: bold; /* Match screenshot */
 }
 
 nav ul li a.lastitem {
-    border-right: none;
+    border-right: none; /* Remove border for the last item */
 }
 
 nav ul li a.current {
-    color: yellow;
+    color: yellow; /* Yellow text for the current page */
 }
 
 article {
@@ -46,6 +51,7 @@ article {
     float: left;
     padding: 20px;
     box-sizing: border-box;
+    margin-top: 20px; /* Add space below the menu */
 }
 
 article h1 {
@@ -54,6 +60,11 @@ article h1 {
 
 article h2 {
     border-bottom: 1px solid blue;
+    margin-top: 30px; /* Add spacing above each section */
+}
+
+article p {
+    margin: 15px 0; /* Add spacing around paragraphs */
 }
 
 article p .first-letter {
@@ -105,10 +116,11 @@ footer {
     border-top: 1px solid black;
     padding: 10px;
     text-align: center;
+    margin-top: 20px; /* Add space above the footer */
 }
 
 footer p {
-    margin: 5px 0; /* Adds spacing between the copyright and the "Return to the top" link */
+    margin: 5px 0; /* Spacing between footer lines */
 }
 
 footer a {
