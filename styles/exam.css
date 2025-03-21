@@ -57,7 +57,7 @@ article {
     margin-top: 20px;
     margin-left: 2em;
     column-count: 3;
-    column-rule: 4px dotted blue;
+    column-rule: 4px solid blue;
     column-gap: 2em;
 }
 
