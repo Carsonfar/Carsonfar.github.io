@@ -59,19 +59,13 @@ article h1 {
 }
 
 article h2 {
+    font-size: 1.2em; /* Smaller font size to match the screenshot */
     border-bottom: 1px solid blue;
     margin-top: 30px; /* Add spacing above each section */
 }
 
 article p {
     margin: 15px 0; /* Add spacing around paragraphs */
-}
-
-article p .first-letter {
-    font-size: 2em;
-    font-weight: bold;
-    font-style: italic;
-    color: blue;
 }
 
 article img.nasa-image {
@@ -87,7 +81,9 @@ aside {
     position: fixed;
     right: 2.5%;
     top: 60px;
-    padding: 20px;
+    background-color: rgb(140, 183, 211); /* Light blue background */
+    padding-bottom: 1em;
+    padding-left: 1em;
     border-left: 1px solid black;
     box-sizing: border-box;
 }
