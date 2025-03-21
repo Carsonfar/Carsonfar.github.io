@@ -10,6 +10,7 @@ body {
     box-sizing: border-box;
     min-height: 100px;  
 }
+
 nav {
     width: 100%;
     border-bottom: 1px solid black;
@@ -80,13 +81,12 @@ article h2 {
     /* Removed border-bottom since we’re using vertical lines */
 }
 
-article p {
-    margin: 15px 0; /* Add spacing around paragraphs */
+h2[id] {
+    color: blue; /* Makes all h2 elements with IDs blue */
 }
 
-article p .first-word {
-    color: blue; /* Blue color for the first word */
-    font-weight: bold; /* Match the example */
+article p {
+    margin: 15px 0; /* Add spacing around paragraphs */
 }
 
 article img.nasa-image {
@@ -115,36 +115,4 @@ aside ol {
 }
 
 aside ul {
-    list-style-type: lower-alpha;
-    padding-left: 20px;
-}
-
-aside a {
-    color: blue;
-    text-decoration: none;
-}
-
-aside a:hover {
-    color: red;
-}
-
-footer {
-    clear: both;
-    border-top: 1px solid black;
-    padding: 10px;
-    text-align: center;
-    margin-top: 20px; /* Add space above the footer */
-}
-
-footer p {
-    margin: 5px 0; /* Spacing between footer lines */
-}
-
-footer a {
-    color: blue;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: red;
-}
+   
