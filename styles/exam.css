@@ -1,6 +1,6 @@
 body {
     width: 95%;
-    margin: 0 auto 15px; /* Remove top margin */
+    margin: 0 auto 15px;
     background-image: url('');
     background-position: right;
     background-repeat: repeat-y;
@@ -9,14 +9,15 @@ body {
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
-    border-top: none; /* Remove the top border */
+    border-top: none;
     box-sizing: border-box;
     min-height: 100px;
 }
 
 nav {
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid blue; /* Updated to 3px and blue */
+    margin-bottom: 10px; /* Add space between the menu and the border */
 }
 
 nav ul {
@@ -25,7 +26,7 @@ nav ul {
     padding: 0;
     overflow: hidden;
     display: flex;
-    justify-content: flex-start; /* Align items to the left */
+    justify-content: flex-start;
 }
 
 nav ul li {
@@ -54,7 +55,6 @@ nav ul li a.current {
     color: yellow;
 }
 
-/* The rest of your CSS (article, aside, footer, etc.) remains unchanged */
 article {
     clear: left;
     width: 70%;
