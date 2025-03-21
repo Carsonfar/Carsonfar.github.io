@@ -7,9 +7,9 @@ body {
     background-repeat: repeat-y;
     background-attachment: fixed;
     font-family: Arial, sans-serif;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
+    border-radius: 75px;
+    box-shadow: 5px 5px 0 0;
     border-top: none;
     box-sizing: border-box;
     min-height: 100px;
