@@ -18,7 +18,7 @@ nav {
     width: 100%;
     border-bottom: 3px solid blue;
     padding-bottom: 15px;
-    padding-left: 20px; /* Shift the menu items to the right */
+    padding-left: 20px; 
     margin-bottom: 0;
     margin-top: 10px;
 }
