@@ -57,7 +57,7 @@ article {
     margin-top: 20px;
     margin-left: 2em;
     column-count: 3;
-    column-rule: 2px dotted blue;
+    column-rule: 4px dotted blue;
     column-gap: 2em;
 }
 
@@ -96,7 +96,7 @@ aside {
     position: fixed;
     right: 2.5%;
     top: 60px;
-    background-color: rgb(140, 183, 211);
+    background-color: blue;
     padding-bottom: 1em;
     padding-left: 1em;
     border-left: 1px solid black;
