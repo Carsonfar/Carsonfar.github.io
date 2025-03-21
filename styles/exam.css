@@ -30,14 +30,14 @@ nav ul li {
 }
 
 nav ul li a {
+    text-align: center;
     display: block;
-    padding: 5px;
-    font-size: 0.9em;
+    width: 175px;
     text-decoration: none;
     background-color: blue;
     color: white;
-    border-right: 1px solid white;
     font-weight: bold;
+    border-right: 2px solid white;
 }
 
 nav ul li a.lastitem {
