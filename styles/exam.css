@@ -124,7 +124,7 @@ aside a:hover {
 
 footer {
     clear: both;
-    border-top: 1px solid black;
+    border-top: 2px solid blue;
     padding: 10px;
     text-align: center;
     margin-top: 20px;
