@@ -30,7 +30,8 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    padding: 10px;
+    padding: 5px; /* Reduced padding to match the smaller height in the example */
+    font-size: 0.9em; /* Smaller font size to match the example */
     text-decoration: none;
     background-color: blue; /* Blue background for menu items */
     color: white; /* White text */
@@ -58,14 +59,34 @@ article h1 {
     margin-top: 0;
 }
 
+article section {
+    position: relative;
+    margin-bottom: 30px; /* Space between sections */
+}
+
+article section:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: -20px; /* Position the line to the right of the section */
+    top: 0;
+    height: 100%;
+    width: 1px;
+    border-right: 1px dotted blue; /* Vertical dotted blue line */
+}
+
 article h2 {
     font-size: 1.2em; /* Smaller font size to match the screenshot */
-    border-bottom: 1px solid blue;
     margin-top: 30px; /* Add spacing above each section */
+    /* Removed border-bottom since we’re using vertical lines */
 }
 
 article p {
     margin: 15px 0; /* Add spacing around paragraphs */
+}
+
+article p .first-word {
+    color: blue; /* Blue color for the first word */
+    font-weight: bold; /* Match the example */
 }
 
 article img.nasa-image {
