@@ -17,8 +17,8 @@ body {
 nav {
     width: 100%;
     border-bottom: 3px solid blue;
-    padding-bottom: 15px; /* Add padding to move the border-bottom down */
-    margin-bottom: 0; /* Remove the margin-bottom since we're using padding */
+    padding-bottom: 10px; /* used padding to move it down since margin-bottom was doing anything */
+    margin-bottom: 0;
 }
 
 nav ul {
