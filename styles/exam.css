@@ -13,7 +13,7 @@ body {
 
 nav {
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black; /* Already matches the image */
 }
 
 nav ul {
@@ -22,30 +22,33 @@ nav ul {
     padding: 0;
     overflow: hidden;
     display: flex;
+    justify-content: center; /* Center the menu items */
 }
 
 nav ul li {
-    flex: 1;
+    flex: none; /* Remove flex-grow so items use the fixed width of the anchor */
     text-align: center;
 }
 
 nav ul li a {
-    text-align: center;
     display: block;
-    width: 175px;
+    width: 175px; /* Already set in your CSS, matches the image */
+    padding: 10px 0; /* Adjust padding for better spacing (10px top/bottom, 0 left/right) */
+    font-size: 1em; /* Slightly larger font size to match the image */
     text-decoration: none;
-    background-color: blue;
-    color: white;
-    font-weight: bold;
-    border-right: 2px solid white;
+    background-color: blue; /* Already matches the image */
+    color: white; /* Already matches the image */
+    border-right: 2px solid white; /* Already matches the image */
+    font-weight: bold; /* Already matches the image */
+    text-align: center; /* Already present, ensures text is centered */
 }
 
 nav ul li a.lastitem {
-    border-right: none;
+    border-right: none; /* Already matches the image */
 }
 
 nav ul li a.current {
-    color: yellow;
+    color: yellow; /* Already matches the image */
 }
 
 article {
