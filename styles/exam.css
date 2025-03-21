@@ -54,20 +54,43 @@ article {
     padding: 20px;
     box-sizing: border-box;
     margin-top: 20px;
-    column-count: 2;
-    column-gap: 40px; /* Increased gap to fit two lines */
-    column-rule: 4px dotted blue; /* Wider rule to visually suggest two lines */
+    display: flex;
+    gap: 40px;
     position: relative;
+}
+
+article::before {
+    content: '';
+    position: absolute;
+    left: calc(50% - 8px);
+    top: 0;
+    height: 100%;
+    width: 2px;
+    border-right: 2px dotted blue;
+}
+
+article::after {
+    content: '';
+    position: absolute;
+    left: calc(50% + 4px);
+    top: 0;
+    height: 100%;
+    width: 2px;
+    border-right: 2px dotted blue;
+}
+
+article > * {
+    flex: 1;
 }
 
 article h1 {
     margin-top: 0;
+    flex: 0 0 100%;
 }
 
 article section {
     position: relative;
     margin-bottom: 30px;
-    break-inside: avoid; /* Prevent sections from breaking across columns */
 }
 
 article h2 {
