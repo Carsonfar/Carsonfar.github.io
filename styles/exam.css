@@ -55,23 +55,7 @@ article {
     box-sizing: border-box;
     margin-top: 20px;
     column-count: 2;
-    column-gap: 40px;
-    position: relative;
-    background-image: linear-gradient(
-        to bottom,
-        transparent 0%,
-        transparent 2px,
-        blue 2px,
-        blue 4px,
-        transparent 4px,
-        transparent 6px,
-        blue 6px,
-        blue 8px,
-        transparent 8px
-    );
-    background-size: 12px 8px; /* Width of the two lines (12px) and height of the repeat pattern (8px) */
-    background-position: center; /* Center the lines in the gap */
-    background-repeat: repeat-y;
+    column-rule: 2px dotted blue;
 }
 
 article h1 {
@@ -81,7 +65,6 @@ article h1 {
 article section {
     position: relative;
     margin-bottom: 30px;
-    break-inside: avoid;
 }
 
 article h2 {
