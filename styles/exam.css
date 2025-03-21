@@ -114,19 +114,8 @@ aside ul {
     padding-left: 20px;
 }
 
-aside ol li a {
+aside a {
     color: blue;
-    text-decoration: underline;
-}
-
-aside ul li a {
-    color: blue;
-    text-decoration: underline;
-}
-
-aside p a {
-    color: blue;
-    text-decoration: underline;
 }
 
 aside a:hover {
