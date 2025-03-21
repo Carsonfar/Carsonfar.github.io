@@ -1,19 +1,22 @@
 body {
     width: 95%;
-    margin: 15px auto;
+    margin: 0 auto 15px; /* Remove top margin */
     background-image: url('');
     background-position: right;
     background-repeat: repeat-y;
     background-attachment: fixed;
     font-family: Arial, sans-serif;
-    border: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: none; /* Remove the top border */
     box-sizing: border-box;
     min-height: 100px;
 }
 
 nav {
     width: 100%;
-    border-bottom: 1px solid black; /* Already matches the image */
+    border-bottom: 1px solid black;
 }
 
 nav ul {
@@ -22,35 +25,36 @@ nav ul {
     padding: 0;
     overflow: hidden;
     display: flex;
-    justify-content: center; /* Center the menu items */
+    justify-content: flex-start; /* Align items to the left */
 }
 
 nav ul li {
-    flex: none; /* Remove flex-grow so items use the fixed width of the anchor */
+    flex: none;
     text-align: center;
 }
 
 nav ul li a {
     display: block;
-    width: 175px; /* Already set in your CSS, matches the image */
-    padding: 10px 0; /* Adjust padding for better spacing (10px top/bottom, 0 left/right) */
-    font-size: 1em; /* Slightly larger font size to match the image */
+    width: 175px;
+    padding: 10px 0;
+    font-size: 1em;
     text-decoration: none;
-    background-color: blue; /* Already matches the image */
-    color: white; /* Already matches the image */
-    border-right: 2px solid white; /* Already matches the image */
-    font-weight: bold; /* Already matches the image */
-    text-align: center; /* Already present, ensures text is centered */
+    background-color: blue;
+    color: white;
+    border-right: 2px solid white;
+    font-weight: bold;
+    text-align: center;
 }
 
 nav ul li a.lastitem {
-    border-right: none; /* Already matches the image */
+    border-right: none;
 }
 
 nav ul li a.current {
-    color: yellow; /* Already matches the image */
+    color: yellow;
 }
 
+/* The rest of your CSS (article, aside, footer, etc.) remains unchanged */
 article {
     clear: left;
     width: 70%;
