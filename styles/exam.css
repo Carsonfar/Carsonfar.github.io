@@ -17,7 +17,7 @@ body {
 nav {
     width: 100%;
     border-bottom: 3px solid blue; /* Updated to 3px and blue */
-    margin-bottom: 10px; /* Add space between the menu and the border */
+    margin-bottom: 50px; /* Add space between the menu and the border */
 }
 
 nav ul {
