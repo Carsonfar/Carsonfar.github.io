@@ -21,31 +21,31 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    display: flex; /* Use flexbox for better control over menu items */
+    display: flex;
 }
 
 nav ul li {
-    flex: 1; /* Distribute space evenly among menu items */
+    flex: 1;
     text-align: center;
 }
 
 nav ul li a {
     display: block;
-    padding: 5px; /* Reduced padding to match the smaller height in the example */
-    font-size: 0.9em; /* Smaller font size to match the example */
+    padding: 5px;
+    font-size: 0.9em;
     text-decoration: none;
-    background-color: blue; /* Blue background for menu items */
-    color: white; /* White text */
-    border-right: 1px solid white; /* White border on the right */
-    font-weight: bold; /* Match screenshot */
+    background-color: blue;
+    color: white;
+    border-right: 1px solid white;
+    font-weight: bold;
 }
 
 nav ul li a.lastitem {
-    border-right: none; /* Remove border for the last item */
+    border-right: none;
 }
 
 nav ul li a.current {
-    color: yellow; /* Yellow text for the current page */
+    color: yellow;
 }
 
 article {
@@ -53,7 +53,7 @@ article {
     float: left;
     padding: 20px;
     box-sizing: border-box;
-    margin-top: 20px; /* Add space below the menu */
+    margin-top: 20px;
 }
 
 article h1 {
@@ -62,34 +62,23 @@ article h1 {
 
 article section {
     position: relative;
-    margin-bottom: 30px; /* Space between sections */
-}
-
-article section:not(:last-child)::after {
-    content: '';
-    position: absolute;
-    right: -20px; /* Position the line to the right of the section */
-    top: 0;
-    height: 100%;
-    width: 1px;
-    border-right: 1px dotted blue; /* Vertical dotted blue line */
+    margin-bottom: 30px;
 }
 
 article h2 {
-    font-size: 1.2em; /* Smaller font size to match the screenshot */
-    margin-top: 30px; /* Add spacing above each section */
-    /* Removed border-bottom since we’re using vertical lines */
+    font-size: 1.2em;
+    margin-top: 30px;
 }
 
 h2[id] {
-    color: blue; /* Makes all h2 elements with IDs blue */
+    color: blue;
 }
 
 article p {
-    margin: 15px 0; /* Add spacing around paragraphs */
+    margin: 15px 0;
 }
 
-article img.nasa-image {
+article img.SHSUimg {
     float: left;
     margin: 10px 20px 10px 0;
     width: 200px;
@@ -102,7 +91,7 @@ aside {
     position: fixed;
     right: 2.5%;
     top: 60px;
-    background-color: rgb(140, 183, 211); /* Light blue background */
+    background-color: rgb(140, 183, 211);
     padding-bottom: 1em;
     padding-left: 1em;
     border-left: 1px solid black;
@@ -115,4 +104,36 @@ aside ol {
 }
 
 aside ul {
-   
+    list-style-type: lower-alpha;
+    padding-left: 20px;
+}
+
+aside a {
+    color: blue;
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: red;
+}
+
+footer {
+    clear: both;
+    border-top: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: red;
+}
