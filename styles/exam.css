@@ -49,13 +49,16 @@ nav ul li a.current {
 }
 
 article {
-    width: 75%;
+    clear: left;
+    width: 70%;
     float: left;
     padding: 20px;
     box-sizing: border-box;
     margin-top: 20px;
-    column-count: 2;
+    margin-left: 2em;
+    column-count: 3;
     column-rule: 2px dotted blue;
+    column-gap: 2em;
 }
 
 article h1 {
