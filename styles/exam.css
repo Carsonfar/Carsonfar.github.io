@@ -121,4 +121,40 @@ aside {
 }
 
 aside ol {
-    list-style-type: upper-roman
+    list-style-type: upper-roman;
+    padding-left: 20px;
+}
+
+aside ul {
+    list-style-type: lower-alpha;
+    padding-left: 20px;
+}
+
+aside a {
+    color: blue;
+}
+
+aside a:hover {
+    color: red;
+}
+
+footer {
+    clear: both;
+    border-top: 3px solid blue;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: red;
+}
