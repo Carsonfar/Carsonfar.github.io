@@ -129,9 +129,11 @@ aside ul {
     list-style-type: lower-alpha;
     padding-left: 20px;
 }
+
 aside ol > li > ul {
     list-style-type: disc;
 }
+
 aside a {
     color: blue;
 }
