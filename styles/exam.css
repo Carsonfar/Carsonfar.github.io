@@ -6,6 +6,7 @@ body {
     background-position: right;
     background-repeat: repeat-y;
     background-attachment: fixed;
+    background-size: 200px auto;
     font-family: Arial, sans-serif;
     border: 1px solid black;
     border-radius: 15px;
