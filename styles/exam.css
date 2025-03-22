@@ -112,7 +112,7 @@ article img.nasa-image {
     height: 150px;
 }
 
-article a.nasa-link {
+article a:has(img.nasa-image) {
     display: inline-block;
     float: left;
     line-height: 0;
