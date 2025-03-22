@@ -3,14 +3,13 @@ body {
     margin: 0 auto 15px;
     background-color: #ffffff;
     background-image: url('samlogo.png');
-    background-position: center;
+    background-position: right;
     background-repeat: repeat-y;
     background-attachment: fixed;
     font-family: Arial, sans-serif;
     border: 1px solid black;
     border-radius: 15px;
     box-shadow: 5px 5px 0 0;
-    border-top: 1;
     box-sizing: border-box;
     min-height: 100px;
 }
