@@ -103,7 +103,7 @@ article img.nasa-image {
 
 article a:has(img.nasa-image) {
     display: inline-block;
-    float: left; /* Move the float to the <a> tag */
+    float: left;
     line-height: 0;
 }
 
