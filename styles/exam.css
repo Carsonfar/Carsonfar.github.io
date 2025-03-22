@@ -100,6 +100,12 @@ article p {
     margin: 15px 0;
 }
 
+article section h2 + p::first-letter {
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+}
+
 article img.nasa-image {
     margin: 10px 20px 10px 0;
     width: 200px;
