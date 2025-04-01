@@ -1,36 +1,61 @@
-html, body {
-    margin: 1em;
-    height: 100%;
-    font-size: 100%;
-    }
-    * {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    }
-    /*-----------------------------------------------------------*/
-    table.first {
-    border-collapse: separate;
-    border: 2px solid black;
-    }
-    table.first th, table.first td {
-    border: 2px solid blue;
-    }
-    table.first tr:nth-child(odd) {
-    background-color: lightblue;
-    }
-    /*-----------------------------------------------------------*/
-    table.second {
+/* Basic Table Styling */
+table {
+    width: 100%;
     border-collapse: collapse;
-    border: 2px solid purple;
-    caption-side: bottom;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table Specific Styling */
+.first caption, .second caption, .third caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.first th, .second th, .third th {
+    background-color: #f4f4f4;
+}
+
+/* Vertical alignment for Category numbers */
+td.number {
+    vertical-align: top;
+}
+
+/* Border styling for first and last rows */
+table.third thead tr:first-child {
+    border-top: 2px solid orangered;
+}
+
+table.third thead tr:last-child {
+    border-bottom: 2px solid orangered;
+}
+
+/* Border between rows in tbody */
+table.third tbody tr:first-child {
+    border-top: 1px solid #ddd;
+}
+
+table.third tbody tr:last-child {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Media Query for Smaller Screens */
+@media only screen and (max-width: 425px) {
+    th, td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
     }
-    table.second th {
-    background-color: salmon;
+
+    thead, td.number {
+        display: none;
+        padding: 0;
     }
-    table.second th, table.second td {
-    padding: 0.7em;
-    vertical-align: middle;
-    border: 2px solid purple;
+
+    td {
+        border-top: 1px solid #ddd;
     }
-    table.second thead tr:first-child{
-    border-bottom: 2px solid purple;
-    }
+}
