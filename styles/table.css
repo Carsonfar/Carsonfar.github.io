@@ -26,4 +26,44 @@ table.second {
 table.second th {
     background-color: salmon;
 }
-table.secon
+table.second th, table.second td {
+    padding: 0.7em;
+    vertical-align: middle;
+    border: 2px solid purple;
+}
+table.second thead tr:first-child {
+    border-bottom: 2px solid purple;
+}
+/*-----------------------------------------------------------*/
+table.third {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+}
+
+table.third th, table.third td {
+    border: 2px solid orangered;
+    padding: 0.2em 0.5em;
+    font-size: 0.9em;
+}
+
+table.third thead tr:first-child {
+    border-top: 2px solid orangered;
+    background-color: lightgreen;
+}
+
+table.third thead tr:first-child th {
+    font-weight: bold;
+}
+
+table.third thead tr:nth-child(2) {
+    background-color: white;
+}
+
+table.third tbody tr:last-child {
+    border-bottom: 2px solid orangered;
+}
+
+table.third tbody td:first-child {
+    vertical-align: top;
+}
