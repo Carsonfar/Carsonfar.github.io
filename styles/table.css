@@ -2,35 +2,67 @@ html, body {
     margin: 1em;
     height: 100%;
     font-size: 100%;
-    }
-    * {
+}
+* {
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    }
-    /*-----------------------------------------------------------*/
-    table.first {
+}
+/*-----------------------------------------------------------*/
+table.first {
     border-collapse: separate;
     border: 2px solid black;
-    }
-    table.first th, table.first td {
+}
+table.first th, table.first td {
     border: 2px solid blue;
-    }
-    table.first tr:nth-child(odd) {
+}
+table.first tr:nth-child(odd) {
     background-color: lightblue;
-    }
-    /*-----------------------------------------------------------*/
-    table.second {
+}
+/*-----------------------------------------------------------*/
+table.second {
     border-collapse: collapse;
     border: 2px solid purple;
     caption-side: bottom;
-    }
-    table.second th {
+}
+table.second th {
     background-color: salmon;
-    }
-    table.second th, table.second td {
+}
+table.second th, table.second td {
     padding: 0.7em;
     vertical-align: middle;
     border: 2px solid purple;
-    }
-    table.second thead tr:first-child{
+}
+table.second thead tr:first-child {
     border-bottom: 2px solid purple;
-    }
+}
+/*-----------------------------------------------------------*/
+/* Third Table */
+table.third {
+    border-collapse: collapse;
+    width: 100%; /* To ensure the table takes full width */
+}
+
+table.third th, table.third td {
+    border: 2px solid orangered;
+    padding: 0.5em; /* Adding padding for better spacing */
+}
+
+table.third thead tr:first-child {
+    border-top: 2px solid orangered;
+    background-color: lightgreen; /* To match the green background in the screenshot */
+}
+
+table.third thead tr:first-child th {
+    font-weight: bold;
+}
+
+table.third thead tr:nth-child(2) {
+    background-color: white; /* The header row for Category, Job, Salary */
+}
+
+table.third tbody tr:last-child {
+    border-bottom: 2px solid orangered;
+}
+
+table.third tbody td:first-child {
+    vertical-align: top; /* Align category numbers to the top */
+}
