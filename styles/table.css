@@ -6,7 +6,6 @@ html, body {
 * {
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
-/*-----------------------------------------------------------*/
 table.first {
     border-collapse: separate;
     border: 2px solid black;
@@ -17,7 +16,6 @@ table.first th, table.first td {
 table.first tr:nth-child(odd) {
     background-color: lightblue;
 }
-/*-----------------------------------------------------------*/
 table.second {
     border-collapse: collapse;
     border: 2px solid purple;
@@ -34,37 +32,31 @@ table.second th, table.second td {
 table.second thead tr:first-child {
     border-bottom: 2px solid purple;
 }
-/*-----------------------------------------------------------*/
 table.third {
     border-collapse: collapse;
     width: 50%;
     margin: 0 auto;
 }
-
 table.third th, table.third td {
     border: none;
     padding: 0.2em 0.5em;
     font-size: 0.9em;
 }
-
 table.third thead tr:first-child {
     border-top: 2px solid orangered;
-    border-bottom: 2px solid orangered; /* Added bottom border for separation */
+    border-bottom: 2px solid orangered;
     background-color: lightgreen;
 }
-
 table.third thead tr:first-child th {
     font-weight: bold;
 }
-
 table.third thead tr:nth-child(2) {
     background-color: lightgreen;
+    border-bottom: 2px solid orangered;
 }
-
 table.third tbody tr:last-child {
     border-bottom: 2px solid orangered;
 }
-
 table.third tbody td:first-child {
     vertical-align: top;
 }
