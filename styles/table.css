@@ -44,6 +44,15 @@ table.third th, table.third td {
     padding: 0.2em 0.5em;
     font-size: 0.9em;
 }
+table.third th:nth-child(1), table.third td:nth-child(1) {
+    width: 10%;
+}
+table.third th:nth-child(2), table.third td:nth-child(2) {
+    width: 60%;
+}
+table.third th:nth-child(3), table.third td:nth-child(3) {
+    width: 30%;
+}
 table.third thead tr:first-child {
     border-top: 2px solid orangered;
     border-bottom: 2px solid orangered;
