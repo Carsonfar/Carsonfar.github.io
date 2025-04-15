@@ -9,6 +9,7 @@ html, body {
 table.first {
     border-collapse: separate;
     border: 2px solid black;
+    margin-bottom: 2em;
 }
 table.first th, table.first td {
     border: 2px solid blue;
@@ -20,6 +21,7 @@ table.second {
     border-collapse: collapse;
     border: 2px solid purple;
     caption-side: bottom;
+    margin-bottom: 2em;
 }
 table.second th {
     background-color: salmon;
@@ -35,7 +37,7 @@ table.second thead tr:first-child {
 table.third {
     border-collapse: collapse;
     width: 50%;
-    margin: 0 auto;
+    margin-bottom: 2em;
 }
 table.third th, table.third td {
     border: none;
