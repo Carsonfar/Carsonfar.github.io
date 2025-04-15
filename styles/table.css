@@ -42,14 +42,12 @@ table.third {
 }
 
 table.third th, table.third td {
-    /* Remove all borders initially */
     border: none;
     padding: 0.2em 0.5em;
     font-size: 0.9em;
 }
 
 table.third thead tr:first-child {
-    /* Add top border for the header */
     border-top: 2px solid orangered;
     background-color: lightgreen;
 }
@@ -59,11 +57,10 @@ table.third thead tr:first-child th {
 }
 
 table.third thead tr:nth-child(2) {
-    background-color: white;
+    background-color: lightgreen; /* Changed to lightgreen to match the image */
 }
 
 table.third tbody tr:last-child {
-    /* Add bottom border for the last row */
     border-bottom: 2px solid orangered;
 }
 
