@@ -49,6 +49,7 @@ table.third th, table.third td {
 
 table.third thead tr:first-child {
     border-top: 2px solid orangered;
+    border-bottom: 2px solid orangered; /* Added bottom border for separation */
     background-color: lightgreen;
 }
 
@@ -57,7 +58,7 @@ table.third thead tr:first-child th {
 }
 
 table.third thead tr:nth-child(2) {
-    background-color: lightgreen; /* Changed to lightgreen to match the image */
+    background-color: lightgreen;
 }
 
 table.third tbody tr:last-child {
