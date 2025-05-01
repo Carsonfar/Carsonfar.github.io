@@ -69,10 +69,19 @@
         <!-- How Did You Hear About Us -->
         <fieldset>
             <legend>How Did You Hear About Us?</legend>
-            <label><input type="checkbox" name="source" value="search_engine"> Search Engine</label><br>
-            <label><input type="checkbox" name="source" value="social_media">Social Media</label><br>
-            <label><input type="checkbox" name="source" value="email">Email</label><br>
-            <label><input type="checkbox" name="source" value="friend_or_colleague">Friend or Colleague</label><br>
+            <div class="checkbox-row">
+                <label for="search_engine">Search Engine:</label>
+                <input type="checkbox" name="source" id="search_engine" value="search_engine"><br>
+
+                <label for="social_media">Social Media:</label>
+                <input type="checkbox" name="source" id="social_media" value="social_media"><br>
+
+                <label for="email">Email:</label>
+                <input type="checkbox" name="source" id="email" value="email"><br>
+
+                <label for="friend_or_colleague">Friend or Colleague:</label>
+                <input type="checkbox" name="source" id="friend_or_colleague" value="friend_or_colleague"><br>
+            </div>
         </fieldset>
 
         <!-- Comments -->
