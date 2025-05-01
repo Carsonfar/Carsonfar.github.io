@@ -52,16 +52,16 @@ textarea {
     width: 10em;
 }
 
-/* Styles for "How Did You Hear About Us?" section */
 .checkbox-row label {
     float: left;
-    width: 15em;
+    width: 11em; 
     text-align: right;
-    margin-right: 0.5em;
+    margin-right: 0.25em; 
 }
 
 .checkbox-row input[type="checkbox"] {
     float: left;
+    margin-left: 0;
     margin-top: 0.2em;
     margin-bottom: 0.5em;
 }
